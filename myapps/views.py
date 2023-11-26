@@ -2,7 +2,7 @@ from django.http import HttpResponse
 from django.template import loader
 
 def myapps(request):
-  template = loader.get_template('blog.html')
+  template = loader.get_template('home.html')
   return HttpResponse(template.render())
 
 def home(request):
@@ -11,4 +11,8 @@ def home(request):
 
 def about(request):
   template = loader.get_template('about.html')
+  return HttpResponse(template.render())
+
+def blog(request):
+  template = loader.get_template('blog.html')
   return HttpResponse(template.render())
