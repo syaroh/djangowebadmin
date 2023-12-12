@@ -10,7 +10,8 @@ class About(models.Model):
     return f"{self.name}"
 
 class Home(models.Model):
-  name = models.CharField(max_length=255)
+  About = models.ForeignKey(About, on_delete=models.CASCADE)
+  name = models.CharField(max_length=100)
   keterangan = models.TextField()
   
   def __str__(self):
