@@ -2,36 +2,123 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>web perpustakaan</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <title>Perpustakaan Ilmu</title>
 </head>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/about">About</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link" href="/blog">Blogs</a>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
 
+    <title>Page Title</title>
+    <style>
+      /* Header styles */
+      header {
+        background-color: #333;
+        padding: 20px;
+        color: #fff;
+      }
+  
+      /* Logo styles */
+      .logo {
+        max-width: 100px;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <header>
+        <p>
+            <img src="https://media.istockphoto.com/id/1411029939/id/foto/tampilan-atas-pada-buku-buku-bertumpuk-berwarna-warni-latar-belakang-konsep-pendidikan-dan.jpg?s=1024x1024&w=is&k=20&c=gf0kW-wDnjxIeyd-xe7tdPEKRXFQZNqwWuxyzzO9B08=" width="1125" height="250"/>
+        </p>
+      <h1>Perpustakaan Ilmu</h1>
+    </header>
+
+<div class="main">
+<div class="left">
+<h3 align="center">MENU</h3>
+<ul>
+  <li><a href="/home">Home</a></li>
+  <li><a href="/about">Daftar Buku</a></li>
+</ul>
+</div>
+
+<div class="middle2">
+    <h2 align="center">DAFTAR BUKU</h2><br>
+    <div align="center">
+    </div>
+
+<div class="buku">
+    <div class="foto">
+    <img src="images/rahvayana.jpg">
+    <div class="judul">Rahvayana - Aku Lala Padamu</div>
+    <div class="penulis">Penulis: Sujiwo Tejo</div>
+    </div>
+    </div>
+    
+    <div class="buku">
+    <div class="foto">
+    <img src="images/dermaga.jpg">
+    <div class="judul">Dermaga Sastra Indonesia</div>
+    <div class="penulis">Penulis: Jamal D. Rahman</div>
+    </div>
+    </div>
+    
+    <div class="buku">
+    <div class="foto">
+    <img src="images/android.jpg">
+    <div class="judul">Pemrograman Android & Database</div>
+    <div class="penulis">Penulis: Abdul Kadir</div>
+    </div>
+    </div>
+    
+    <div class="buku">
+    <div class="foto">
+    <img src="images/seni.jpg">
+    <div class="judul">Sebuah Seni Untuk Bersikap Bodo Amat</div>
+    <div class="penulis">Penulis: Mark Manson</div>
+    </div>
+    </div>
+    </div>
+    
+    
+    <div class="middle2">
+    <div class="buku">
+    <div class="foto">
+    <img src="images/web.jpg">
+    <div class="judul">Menjadi Web Entrepreneur, Siapa takut?</div>
+    <div class="penulis">Penulis: Su Rahman</div>
+    </div>
+    </div>
+    
+    <div class="buku">
+    <div class="foto">
+    <img src="images/mikrotik.jpg">
+    <div class="judul">Jaringan Komputer Berbasis Mikrotik +Cd</div>
+    <div class="penulis">Penulis: Iwan Sofana</div>
+    </div>
+    </div>
+    
+    <div class="buku">
+    <div class="foto">
+    <img src="images/pemograman.jpg">
+    <div class="judul">Buku Sakti Pemrogaman Web</div>
+    <div class="penulis">Penulis: Didik Setiawan</div>
+    </div>
+    </div>
+    
+
+    <div class="buku">
+    <div class="foto">
+    <img src="images/desain.jpg">
+    <div class="judul">Sejarah Perkembangan Komputer</div>
+    <div class="penulis">Penulis: Jubilee Enterprise</div>
+    <a href="https://drive.google.com/file/d/1_LqT8JtkfD1HreKRyJcKCpRZ22iDU78z/view?usp=drive_link"><h6>Klik PDF</h6></a>
+    </div>
+    </div>
+    <footer>
+        <p>website ini dibuat oleh syaroh</p>
+    </footer>
 </body>
 </html>

@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import About, Home, Blog
+from .models import About, Home
 
 # Register your models here.
 # class AboutAdmin(admin.ModelAdmin):
@@ -17,4 +17,3 @@ from .models import About, Home, Blog
 
 admin.site.register(About)
 admin.site.register(Home)
-admin.site.register(Blog)

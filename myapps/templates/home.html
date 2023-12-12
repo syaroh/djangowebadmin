@@ -2,39 +2,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+  }
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+  </style>
+  </head>
+  <body>
+  
+  <button onclick="myFunction()">Toggle dark mode</button>
+  
+  <script>
+  function myFunction() {
+     var element = document.body;
+     element.classList.toggle("dark-mode");
+  }
+  </script>
+  
+  <title>Page Title</title>
+  <style>
+    /* Header styles */
+    header {
+      background-color: #333;
+      padding: 20px;
+      color: #fff;
+    }
+
+    /* Logo styles */
+    .logo {
+      max-width: 100px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+      <p>
+          <img src="https://media.istockphoto.com/id/1411029939/id/foto/tampilan-atas-pada-buku-buku-bertumpuk-berwarna-warni-latar-belakang-konsep-pendidikan-dan.jpg?s=1024x1024&w=is&k=20&c=gf0kW-wDnjxIeyd-xe7tdPEKRXFQZNqwWuxyzzO9B08=" width="1125" height="250"/>
+      </p>
+    <h1>Perpustakaan Ilmu</h1>
+  </header>
+
+  <p>This is the body of the page.</p>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>web perpustakaan</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <title>Perpustakaan Online</title>
 </head>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/blog">Blogs</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
 
-<h1>Selamat Datang di Perpustakaan Buku Syaroh</h1>
-<p>Tersedia Berbagai Macam Buku </p>
+  <title>Page Title</title>
+  <style>
+    /* Header styles */
+    header {
+      background-color: #333;
+      padding: 20px;
+      color: #fff;
+    }
+
+    /* Logo styles */
+    .logo {
+      max-width: 100px;
+    }
+  </style>
+</head>
+
+<section>
+<div class="main">
+  <div class="left">
+  <h3 align="center">MENU</h3>
+  <ul>
+  <li><a href="/home">Home</a></li>
+  <li><a href="/about">Daftar Buku</a></li>
+  </ul>
+  </div>
+</section>
+
+<section>
+  <footer>
+    <p>website ini dibuat oleh syaroh</p>
+  </footer>
+  </div>
+</section>
 </body>
 </html>

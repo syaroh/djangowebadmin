@@ -15,11 +15,3 @@ class Home(models.Model):
   
   def __str__(self):
     return f"{self.name}"
-  
-class Blog(models.Model):
-  name = models.CharField(max_length=255)
-  keterangan = models.TextField()
-  
-
-  def __str__(self):
-    return f"{self.name}"
