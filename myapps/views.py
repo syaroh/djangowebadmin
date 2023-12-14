@@ -4,7 +4,7 @@ from django.template import loader
 from .models import Home, About
 
 def home(request):
-  data = home.objects.all()
+  data = Home.objects.all()
   template = loader.get_template('home.html')
   context = {
     'contoh' : 'halo saya dari variabel',
